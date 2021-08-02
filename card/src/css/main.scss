@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", "sans-serif";
+  background-image: url("https://cdn.wallpapersafari.com/73/32/df9FIR.jpg");
+
+  background-size: auto;
+  overflow: hidden;
+}
+
+canvas{
+  display: block;
+  width:50%;
+  height:50%;
+}
+
+.progress {
+  position: fixed;
+  top:0;
+  left:0;
+  background: darkgreen;
+  width:0;
+  height: 3px;
+}
